@@ -1,0 +1,11 @@
+com/wirecash/api/models/Request/AuthenticateRequest.class
+com/wirecash/api/models/Responses/CountryListResponse.class
+com/wirecash/api/models/Models/Company.class
+com/wirecash/api/models/Models/Payer.class
+com/wirecash/api/models/Models/Service.class
+com/wirecash/api/models/Responses/CompaniesResponse.class
+com/wirecash/api/models/Responses/StateListResponse.class
+com/wirecash/api/models/Models/ExchangeRate.class
+com/wirecash/api/models/Responses/AuthenticateResponse.class
+com/wirecash/api/models/Models/NameCode.class
+com/wirecash/api/models/Request/RefreshTokenRequest.class
