@@ -2,7 +2,7 @@ package com.wirecash.api.models.Request;
 
 public class QuoteRequest {
     private Long service_id;
-    private Long payerId = 0L;
+    private Long payer_id = 0L;
     private String currency_symbol;
     private Double amount;
 
@@ -19,16 +19,16 @@ public class QuoteRequest {
         return this;
     }
 
-    public Long getPayerId() {
-        return payerId;
+    public Long getPayer_id() {
+        return payer_id;
     }
 
-    public void setPayerId(Long payerId) {
-        this.payerId = payerId;
+    public void setPayer_id(Long payerId) {
+        this.payer_id = payerId;
     }
 
     public QuoteRequest withPayerId(Long payerId) {
-        this.payerId = payerId;
+        this.payer_id = payerId;
         return this;
     }
 

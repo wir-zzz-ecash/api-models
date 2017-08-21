@@ -6,6 +6,8 @@ import java.util.ArrayList;
 
 public class StateListResponse {
 
+    private ArrayList<NameCode> states = new ArrayList<>();
+
     public ArrayList<NameCode> getStates() {
         return states;
     }
@@ -13,6 +15,4 @@ public class StateListResponse {
     public void setStates(ArrayList<NameCode> states) {
         this.states = states;
     }
-
-    private ArrayList<NameCode> states = new ArrayList<>();
 }
